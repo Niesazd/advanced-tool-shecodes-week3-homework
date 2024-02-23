@@ -11,7 +11,6 @@ body {
 h1,
 h2,
 h3 {
- 
   margin: 0;
 }
 
@@ -20,7 +19,6 @@ h1 {
 }
 
 h2 {
-  
   font-size: 48px;
 }
 
@@ -34,7 +32,6 @@ p {
   line-height: 1.5;
   padding: 20px 0;
 }
-
 
 .navigation-links {
   display: flex;
@@ -50,7 +47,8 @@ p {
   text-transform: capitalize;
 }
 
-.contact-link, .button-link {
+.contact-link,
+.button-link {
   background: var(--primary-color);
   box-shadow: var(--box-shadow);
   color: white;
@@ -91,20 +89,19 @@ p {
   }
   h2 {
     font-size: 36px;
-    text-align:center;
+    text-align: center;
   }
   .images-home {
-    display:none;
+    display: none;
   }
   p {
-    text-align:center;
+    text-align: center;
   }
   .button-link {
-    display:block;
+    display: block;
     margin: 0 auto;
   }
   .email-link {
-font-size: 20px;
+    font-size: 20px;
   }
 }
-
