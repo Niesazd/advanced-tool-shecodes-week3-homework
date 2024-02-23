@@ -69,6 +69,7 @@ p {
   color: var(--primary-color);
   font-size: 28px;
   text-decoration: none;
+  margin-bottom: 50px;
 }
 
 .email-link:hover {
@@ -103,5 +104,8 @@ p {
   }
   .email-link {
     font-size: 20px;
+  }
+  .images {
+margin-bottom: 10px;
   }
 }
